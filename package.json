@@ -1,0 +1,35 @@
+{
+  "name": "erc1820-registry",
+  "version": "0.0.1",
+  "description": "A truffle project to deploy an ERC1820 Registry for Permissioned Chains.",
+  "keywords": [
+    "ethereum",
+    "erc1820",
+    "solidity",
+    "smart",
+    "contract",
+    "blockchain"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clearmatics/erc1820-registry.git"
+  },
+  "files": [
+    "build",
+    "contracts"
+  ],
+  "homepage": "https://github.com/clearmatics/erc1820-registry",
+  "author": "Clearmatics <opensource@clearmatics.com>",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "truffle": "^5.1.23",
+    "truffle-privatekey-provider": "^1.3.0"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy": "truffle deploy --network development"
+  },
+  "engines": {
+    "node": "14.5.0"
+  }
+}
