@@ -26,7 +26,7 @@ On deployment you will see the contract that it has been deployed to. Use this a
     ```
   * Deploy ERC1820 Registry contract
     ```
-    docker run --network="host" -t eastata/erc1820-registry
+    docker run --network="host" -t clearmatics/erc1820-registry
     ```
 
 * **Autonity** or other networks with custom settings
@@ -35,7 +35,7 @@ On deployment you will see the contract that it has been deployed to. Use this a
   * Deploy ERC1820 Registry contract
     ```
     docker run -v "$(pwd)"/truffle-config.js:/app/truffle-config.js --network="host" -t \
-    eastata/erc1820-registry \
+    clearmatics/erc1820-registry \
     deploy -- --f 2 --describe-json
     ```
     Any options for [truffle migrate](https://www.trufflesuite.com/docs/truffle/reference/truffle-commands#migrate) could be used
